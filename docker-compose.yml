@@ -1,0 +1,13 @@
+version: "3.5"
+
+services:
+
+  kali:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+#networks:
+#  default:
+#    name: dvwa_ciber
+#    external: true
