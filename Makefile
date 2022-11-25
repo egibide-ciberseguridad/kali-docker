@@ -10,7 +10,7 @@ build:
 	@docker-compose pull && docker-compose build --pull
 
 workspace:
-	@docker-compose run kali /bin/bash
+	@docker-compose run --rm kali /bin/bash
 
 clean:
 	@docker-compose down -v --remove-orphans
