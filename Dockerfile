@@ -7,3 +7,5 @@ RUN apt update && apt -y install kali-linux-headless
 RUN apt update
 
 RUN apt -y install iputils-ping
+
+WORKDIR /root
