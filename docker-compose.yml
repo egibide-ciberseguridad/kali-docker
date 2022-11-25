@@ -6,6 +6,11 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    volumes:
+      - root_homedir:/root
+
+volumes:
+  root_homedir:
 
 #networks:
 #  default:
