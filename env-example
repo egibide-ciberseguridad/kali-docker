@@ -1,0 +1,2 @@
+# Red de Docker a la que se conecta el contenedor de Kali (tiene que existir previamente)
+EXTERNAL_NETWORK=dvwa_ciber

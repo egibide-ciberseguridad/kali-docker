@@ -11,8 +11,3 @@ services:
 
 volumes:
   root_homedir:
-
-#networks:
-#  default:
-#    name: dvwa_ciber
-#    external: true
